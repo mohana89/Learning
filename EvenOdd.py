@@ -1,5 +1,5 @@
 n=int(input("enter Number "))
 if n%2==0:
-    print("its Even")
+    print("{} is Even".format(n))
 else:
-    print("its odd")
+    print("{} is odd".format(n))
